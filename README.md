@@ -9,7 +9,7 @@ This is a simple C++ project that demonstrates the use of CMake with a custom ma
 
 ## Building the Project
 
-1. Clone the repository with the flag --recurse-submodules.
+1. Clone the repository.
 2. Navigate to the project directory.
 4. Configure and build with ``` ./config.sh ; ./build.sh ```
 
