@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(TestSome)
+include_directories(${CMAKE_SOURCE_DIR}/../SomeLib/)
+link_directories(${CMAKE_SOURCE_DIR}/../SomeLib/build)
+add_executable(${PROJECT_NAME} main.cpp)
+target_link_libraries(${PROJECT_NAME} mymath)
